@@ -8,8 +8,8 @@ class FirstNameLastName(models.Model):
     sec = fields.Char(string='Sector')
     tamemp = fields.Char(string='Tamaño empresa')
 
-class modelo76inf(models.Models):
-    _description  =  'Modelo para Manipular Many2many'
-    _name  =  'model.many2many'
+class SeveralFields(models.Model):
+    _description = 'Modelo para Manipular Many2many'
+    _name = 'model.manipulate.many2many'
 
-    como = fields.Many2many('model.many2many', string="Linea de producto")
+    como = fields.Many2many('model.manipulate.many2many', string="Linea de producto")
