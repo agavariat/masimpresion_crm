@@ -25,7 +25,7 @@
     'website': "https://www.intresco.co",
     'depends': ['base','contacts'],
     'data': [
-             'views/name_view.xml'
+             'views/name_view.xml',
              'data/severalfields.xml'
              ],
     'demo': [],
