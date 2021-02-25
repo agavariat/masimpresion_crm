@@ -10,6 +10,6 @@ class FirstNameLastName(models.Model):
 
 class modelo76inf(models.Models):
     _description  =  'Modelo para Manipular Many2many'
-    _name  =  'modelo.many2many'
+    _name  =  'model.many2many'
 
     como = fields.Many2many('model.many2many', string="Linea de producto")
