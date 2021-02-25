@@ -10,7 +10,7 @@
                     <group col="2" attrs="{'invisible':  [('company_type', '=', 'company')]}">
                             <field name="sec"/>
                             <field name="tamemp"/>
-                            <field name="como"/>
+                            <field name="linea"/>
                     </group>
                 </xpath>
 

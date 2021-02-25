@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <!-- 18 Formales-->
+    <data noupdate="1">
+
+        <record model="model.manipulate.many2many" id="05">
+            <field name="name">1</field>
+        </record>
+    </data>
+</odoo>

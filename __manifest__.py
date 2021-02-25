@@ -26,6 +26,7 @@
     'depends': ['base','contacts'],
     'data': [
              'views/name_view.xml'
+             'data/severalfields.xml'
              ],
     'demo': [],
     'images': ['static/description/banner.png'],

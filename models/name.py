@@ -7,10 +7,11 @@ class FirstNameLastName(models.Model):
 
     sec = fields.Char(string='Sector')
     tamemp = fields.Char(string='Tamaño empresa')
+    linea = fields.Many2many('model.manipulate.many2many', string="Linea de producto")
 
 class SeveralFields(models.Model):
-    _inherit = 'res.partner'
     _description = 'Modelo para Manipular Many2many'
     _name = 'model.manipulate.many2many'
 
-    como = fields.Many2many('model.manipulate.many2many', string="Linea de producto")
+    name = fields.Char('linea1')
+    
