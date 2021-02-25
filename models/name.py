@@ -24,7 +24,7 @@ class FirstNameLastName(models.Model):
         [
             ('1', 'Actual'),
             ('2', 'Prospecto'),
-            ('3', 'Otro')
+            ('3', 'Otro'),
 
         ], "Sector",
     )
