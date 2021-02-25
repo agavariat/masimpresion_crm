@@ -9,6 +9,7 @@ class FirstNameLastName(models.Model):
     tamemp = fields.Char(string='Tamaño empresa')
 
 class SeveralFields(models.Model):
+    _inherit = 'res.partner'
     _description = 'Modelo para Manipular Many2many'
     _name = 'model.manipulate.many2many'
 
