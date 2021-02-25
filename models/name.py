@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from odoo import api, models, fields
-from odoo.exceptions import ValidationError
 
 class FirstNameLastName(models.Model):
     _inherit = 'res.partner'
@@ -9,7 +8,7 @@ class FirstNameLastName(models.Model):
     sec = fields.Char(string='Sector')
     tamemp = fields.Char(string='Tamaño empresa')
 
-class  modelo76inf(models.Models):
+class modelo76inf(models.Models):
     _description  =  'Modelo para Manipular Many2many'
     _name  =  'modelo.many2many'
 
