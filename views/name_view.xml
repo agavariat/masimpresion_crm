@@ -6,12 +6,10 @@
             <field name="model">res.partner</field>
            <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
-                <xpath expr="//field[@name='vat']" position="after">
-                    <group col="2" attrs="{'invisible':  [('company_type', '=', 'company')]}">
+                <xpath expr="//group[@name='vat']" position="after">
                             <field name="sec"/>
                             <field name="tamemp"/>
                             <field name="linea" widget="many2many_tags"/>
-                    </group>
                 </xpath>
 
             </field>
