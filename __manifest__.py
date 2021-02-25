@@ -15,14 +15,14 @@
 ##############################################################################
 
 {
-    'name': 'First And Last Name in Contacts',
+    'name': 'Campos mas impresion',
     'version': '12.0.1.0.0',
-    'summary': """This module will helps you to give the first name and last name for your contact.""",
-    'description': "Module helps you to manage the first name and last name of your partner as well as in the contacts.",
+    'summary': """este modulo agregas campos de personalizacion para masimpresion.""",
+    'description': "",
     'category': "Human Resource",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
+    'author': 'Andres Gaviria',
+    'company': 'Intresco S.A.S',
+    'website': "https://www.intresco.co",
     'depends': ['base','contacts'],
     'data': [
              'views/name_view.xml'
