@@ -14,4 +14,3 @@ class SeveralFields(models.Model):
     _name = 'model.manipulate.many2many'
 
     name = fields.Char('linea1')
-    field_sec = fields.Selection([('almacenes_por_departamento', 'Almacenes por Departamento'),('belleza_cosmeticas', 'Belleza y Cosmeticas')])
