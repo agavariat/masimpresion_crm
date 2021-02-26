@@ -7,6 +7,7 @@ class FirstNameLastName(models.Model):
 
     tamemp = fields.Char(string='Tamaño empresa')
     linea = fields.Many2many('model.manipulate.many2many', string="Linea de producto")
+    sec = fields.Selection([('si', 'Si'),('no', 'No'),], "ACEPTA ENTREGARLE A UNIMINUTO LOS DATOS GENERALES SUYOS Y DEL MICRONEGOCIO CON FINES ACADÉMICOS",)
 
 class SeveralFields(models.Model):
     _description = 'Modelo para Manipular Many2many'
@@ -17,11 +18,3 @@ class SeveralFields(models.Model):
 class SelectionField(models.Model):
     _inherit = 'res.partner'
     _name = 'select'
-
-    sec = fields.Selection(
-        [
-            ('si', 'Si'),
-            ('no', 'No'),
-
-        ], "ACEPTA ENTREGARLE A UNIMINUTO LOS DATOS GENERALES SUYOS Y DEL MICRONEGOCIO CON FINES ACADÉMICOS",
-    )
