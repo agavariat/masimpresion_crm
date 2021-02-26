@@ -22,21 +22,6 @@ class FirstNameLastName(models.Model):
                 ('4', 'Bebidas'),
             ], "Sector",
         )
-     como = fields.Selection(
-            [
-                ('1', 'Asesor Comercial'),
-                ('2', 'Facebook'),
-                ('3', 'Instagram'),
-                ('4', 'Web'),
-            ], "Como se Contacto",
-        )
-    ccli = fields.Selection(
-            [
-                ('1', 'Actual'),
-                ('2', 'Prospecto'),
-                ('3', 'otro'),
-            ], "Como se Contacto",
-        )
 
 class SeveralFields(models.Model):
     _description = 'Modelo para Manipular Many2many'
@@ -46,7 +31,3 @@ class SeveralFields(models.Model):
 class SelectionField(models.Model):
     _inherit = 'res.partner'
     _name = 'select'
-
-class Selection1Field(models.Model):
-    _inherit = 'res.partner'
-    _name = 'select1'
