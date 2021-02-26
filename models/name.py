@@ -13,3 +13,14 @@ class SeveralFields(models.Model):
     _name = 'model.manipulate.many2many'
 
     name = fields.Char('linea1')
+
+class SelectionField(models.Model):
+    _name = 'select'
+
+    x_datos1 = fields.Selection(
+        [
+            ('si', 'Si'),
+            ('no', 'No'),
+
+        ], "ACEPTA ENTREGARLE A UNIMINUTO LOS DATOS GENERALES SUYOS Y DEL MICRONEGOCIO CON FINES ACADÉMICOS",
+    )
