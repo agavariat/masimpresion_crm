@@ -12,8 +12,7 @@ class FirstNameLastName(models.Model):
 class SeveralFields(models.Model):
     _description = 'Modelo para Manipular Many2many'
     _name = 'model.manipulate.many2many'
-
-    name = fields.Char('linea1')
+    name = fields.Selection([('si', 'Si'),('no', 'No'),])
 
 class SelectionField(models.Model):
     _inherit = 'res.partner'

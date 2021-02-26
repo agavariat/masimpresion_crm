@@ -5,12 +5,8 @@
     <data noupdate="1">
 
         <record model="model.manipulate.many2many" id="05">
-            <field name="name">Portafolio 1</field>
-            <field name="name">Portafolio 2</field>
-            <field name="name">Portafolio 3</field>
-            <field name="name">Portafolio 4</field>
-            <field name="name">Portafolio 5</field>
-            <field name="name">Portafolio 6</field>
+            <field name="name">2</field>
+            <field name="name">2</field>
         </record>
     </data>
 </odoo>
