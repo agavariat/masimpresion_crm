@@ -15,6 +15,7 @@ class SeveralFields(models.Model):
     name = fields.Char('linea1')
 
 class SelectionField(models.Model):
+    _inherit = 'res.partner'
     _name = 'select'
 
     sec = fields.Selection(
