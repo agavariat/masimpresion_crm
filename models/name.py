@@ -39,3 +39,6 @@ class SeveralFields(models.Model):
 class SelectionField(models.Model):
     _inherit = 'res.partner'
     _name = 'select'
+class SelectionField(models.Model):
+    _inherit = 'res.partner'
+    _name = 'select1'
