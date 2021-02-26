@@ -4,7 +4,7 @@
        <record id="view_partner_simple_form_inheritted" model="ir.ui.view">
             <field name="name">res.partner.simplified.form.inheritted</field>
             <field name="model">res.partner</field>
-           <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='vat']" position="after">
                     <field name="tamemp"/>
