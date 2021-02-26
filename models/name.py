@@ -22,7 +22,7 @@ class FirstNameLastName(models.Model):
                 ('4', 'Bebidas'),
             ], "Sector",
         )
-        sec1 = fields.Selection(
+    sec1 = fields.Selection(
             [
                 ('1', 'Almacenes por Departamento'),
                 ('2', 'Belleza y Cosmeticas'),
