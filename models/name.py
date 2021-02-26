@@ -43,3 +43,7 @@ class SeveralFields(models.Model):
     _description = 'Modelo para Manipular Many2many'
     _name = 'model.manipulate.many2many'
     name = fields.Char('Linea de producto')
+
+class SelectionField(models.Model):
+    _inherit = 'res.partner'
+    _name = 'select'
