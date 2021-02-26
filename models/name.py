@@ -13,4 +13,23 @@ class SeveralFields(models.Model):
     _name = 'model.manipulate.many2many'
 
     name = fields.Char('linea1')
-    
+    sec = fields.Selection(
+        [
+            ('1', 'Almacenes por Departamento'),
+            ('2', 'Belleza y Cosmeticas'),
+
+        ], "Sector",
+    )
+    com = fields.Selection(
+        [
+            ('1', 'FaceBook'),
+            ('2', 'Acesor Comercial'),
+        ], "Sector",
+    )
+    tip = fields.Selection(
+        [
+            ('1', 'Actual'),
+            ('2', 'Prospecto'),
+            ('3', 'Otro'),
+        ], "Sector",
+    )
