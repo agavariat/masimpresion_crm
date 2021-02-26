@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from odoo import api, models, fields
+from odoo.exceptions import ValidationError
 
 class FirstNameLastName(models.Model):
     _inherit = 'res.partner'
@@ -22,15 +23,6 @@ class FirstNameLastName(models.Model):
                 ('4', 'Bebidas'),
             ], "Sector",
         )
-    como = fields.Selection(
-            [
-                ('1', 'Almacenes por Departamento'),
-                ('2', 'Belleza y Cosmeticas'),
-                ('3', 'Alimentos'),
-                ('4', 'Bebidas'),
-            ], "Sector",
-        )
-
 class SeveralFields(models.Model):
     _description = 'Modelo para Manipular Many2many'
     _name = 'model.manipulate.many2many'
