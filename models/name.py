@@ -5,7 +5,14 @@ from odoo import api, models, fields
 class FirstNameLastName(models.Model):
     _inherit = 'res.partner'
 
-    tamemp = fields.Char(string='Tamaño empresa')
+    tamemp = fields.Selection(
+            [
+                ('1', 'Grande'),
+                ('2', 'Mediana'),
+                ('3', 'Pequeña'),
+                ('4', 'Empresa Personal'),
+            ], "Tamaño de Empresa",
+        )
     linea = fields.Many2many('model.manipulate.many2many', string="Linea de producto")
     sec = fields.Selection(
             [
