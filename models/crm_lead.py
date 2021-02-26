@@ -3,8 +3,8 @@
 from odoo import api, models, fields
 from odoo.exceptions import ValidationError
 
-class FirstNameLastName(models.Model):
-    _inherit = 'res.partner'
+class lead(models.Model):
+    _inherit = "crm.lead"
 
     tamemp = fields.Selection(
         [
@@ -39,7 +39,3 @@ class FirstNameLastName(models.Model):
             ('4', 'Bebidas'),
         ], "Como se contacto",
     )
-class SeveralFields(models.Model):
-    _description = 'Modelo para Manipular Many2many'
-    _name = 'model.manipulate.many2many'
-    name = fields.Char('Linea de producto')
