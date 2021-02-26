@@ -6,7 +6,6 @@ class FirstNameLastName(models.Model):
     _inherit = 'res.partner'
 
     tamemp = fields.Char(string='Tamaño empresa')
-    tamemp1 = fields.Char(string='Tamaño empresa')
     linea = fields.Many2many('model.manipulate.many2many', string="Linea de producto")
 
 class SeveralFields(models.Model):

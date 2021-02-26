@@ -11,6 +11,7 @@
                     <field name="linea" widget="many2many_tags"/>
                 </xpath>
                 <xpath expr="//field[@name='website']" position="after">
+                    
                 </xpath>
             </field>
        </record>
