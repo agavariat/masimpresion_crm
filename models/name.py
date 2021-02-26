@@ -14,6 +14,14 @@ class FirstNameLastName(models.Model):
             ], "Tamaño de Empresa",
         )
     linea = fields.Many2many('model.manipulate.many2many', string="Linea de producto")
+    sec1 = fields.Selection(
+            [
+                ('1', 'Almacenes por Departamento'),
+                ('2', 'Belleza y Cosmeticas'),
+                ('3', 'Alimentos'),
+                ('4', 'Bebidas'),
+            ], "Sector",
+        )
     sec = fields.Selection(
             [
                 ('1', 'Almacenes por Departamento'),
