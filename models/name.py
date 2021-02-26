@@ -17,7 +17,7 @@ class SeveralFields(models.Model):
 class SelectionField(models.Model):
     _name = 'select'
 
-    x_datos1 = fields.Selection(
+    sec = fields.Selection(
         [
             ('si', 'Si'),
             ('no', 'No'),
