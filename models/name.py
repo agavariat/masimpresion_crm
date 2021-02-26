@@ -22,7 +22,7 @@ class FirstNameLastName(models.Model):
                 ('4', 'Bebidas'),
             ], "Sector",
         )
-    como = fields.Selection(
+     como = fields.Selection(
             [
                 ('1', 'Asesor Comercial'),
                 ('2', 'Facebook'),
@@ -46,3 +46,7 @@ class SeveralFields(models.Model):
 class SelectionField(models.Model):
     _inherit = 'res.partner'
     _name = 'select'
+
+class Selection1Field(models.Model):
+    _inherit = 'res.partner'
+    _name = 'select1'
