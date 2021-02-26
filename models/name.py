@@ -4,14 +4,6 @@ from odoo import api, models, fields
 
 class FirstNameLastName(models.Model):
     _inherit = 'res.partner'
-class SeveralFields(models.Model):
-    _description = 'Modelo para Manipular Many2many'
-    _name = 'model.manipulate.many2many'
-    name = fields.Char('Linea de producto')
-
-class SelectionField(models.Model):
-    _inherit = 'res.partner'
-    _name = 'select'
 
     tamemp = fields.Selection(
             [
@@ -30,4 +22,20 @@ class SelectionField(models.Model):
                 ('4', 'Bebidas'),
             ], "Sector",
         )
+        sec1 = fields.Selection(
+            [
+                ('1', 'Almacenes por Departamento'),
+                ('2', 'Belleza y Cosmeticas'),
+                ('3', 'Alimentos'),
+                ('4', 'Bebidas'),
+            ], "Sector",
+        )
 
+class SeveralFields(models.Model):
+    _description = 'Modelo para Manipular Many2many'
+    _name = 'model.manipulate.many2many'
+    name = fields.Char('Linea de producto')
+
+class SelectionField(models.Model):
+    _inherit = 'res.partner'
+    _name = 'select'
