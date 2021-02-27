@@ -8,15 +8,15 @@
             <field name="arch" type="xml">
                 <xpath expr="//group[1]" position="after">
                     <group>
-                        <field name="tamemp" style="width:40%%" />
-                        <field name="linea" widget="many2many_tags" style="width:40%%" />
-                        <field name="com" style="width:40%%" />
-                    </group>    
-                </xpath>
-                <xpath expr="//group[2]" position="after">
-                    <group>
-                        <field name="sec"/>
-                        <field name="client"/>
+                        <group>
+                            <field name="tamemp" style="width:40%%" />
+                            <field name="linea" widget="many2many_tags" style="width:40%%" />
+                            <field name="com" style="width:40%%" />
+                        </group>
+                        <group>
+                            <field name="sec"/>
+                            <field name="client"/>
+                        </group>
                     </group>    
                 </xpath>
             </field>
