@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <odoo>
-    <!-- 18 Formales-->
     <data noupdate="1">
-
-        <record model="model.manipulate.many2many" id="05">
+        <record model="model.manipulate.many2many" id="01">
             <field name="name">Portafolio 1</field>
+        </record>
+        <record model="model.manipulate.many2many" id="02">
             <field name="name">Portafolio 2</field>
+        </record>
+        <record model="model.manipulate.many2many" id="03">
             <field name="name">Portafolio 3</field>
+        </record>
+        <record model="model.manipulate.many2many" id="04">
             <field name="name">Portafolio 4</field>
+        </record>
+        <record model="model.manipulate.many2many" id="05">
             <field name="name">Portafolio 5</field>
+        </record>
+        <record model="model.manipulate.many2many" id="06">
             <field name="name">Portafolio 6</field>
         </record>
     </data>
