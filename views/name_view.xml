@@ -13,7 +13,7 @@
                         <field name="com" style="width:40%%" />
                     </group>    
                 </xpath>
-                <xpath expr="//field[@name='category_id']" position="after">
+                <xpath expr="//group[2]" position="after">
                     <group>
                         <field name="sec"/>
                         <field name="client"/>
