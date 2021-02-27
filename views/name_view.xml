@@ -9,9 +9,9 @@
                 <xpath expr="//group[1]" position="after">
                     <group>
                         <group>
-                            <field name="tamemp" style="width:40%%" />
-                            <field name="linea" widget="many2many_tags" style="width:40%%" />
-                            <field name="com" style="width:40%%" />
+                            <field name="tamemp" />
+                            <field name="linea" widget="many2many_tags"  />
+                            <field name="com"  />
                         </group>
                         <group>
                             <field name="sec"/>
