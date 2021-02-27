@@ -14,8 +14,10 @@
                     </group>    
                 </xpath>
                 <xpath expr="//field[@name='category_id']" position="after">
-                    <field name="sec"/>
-                    <field name="client"/>
+                    <group>
+                        <field name="sec"/>
+                        <field name="client"/>
+                    </group>    
                 </xpath>
             </field>
        </record>
