@@ -6,14 +6,14 @@
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
-                <xpath expr="//group[1]" position="after">
+                <xpath expr="//group/group[1]" position="after">
                     <group>
                         <field name="tamemp" style="width:40%%" />
                         <field name="linea" widget="many2many_tags" style="width:40%%" />
                         <field name="com" style="width:40%%" />
                     </group>    
                 </xpath>
-                <xpath expr="//group[3]" position="after">
+                <xpath expr="//group/group[3]" position="after">
                     <group>
                         <field name="sec"/>
                         <field name="client"/>
