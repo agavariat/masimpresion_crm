@@ -7,9 +7,11 @@
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='zip']" position="after">
-                    <field name="tamemp"/>
-                    <field name="linea" widget="many2many_tags"/>
-                    <field name="com"/>
+                    <group>
+                        <field name="tamemp"/>
+                        <field name="linea" widget="many2many_tags"/>
+                        <field name="com"/>
+                    </group>    
                 </xpath>
                 <xpath expr="//field[@name='website']" position="after">
                     <field name="sec"/>
