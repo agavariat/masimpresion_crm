@@ -19,4 +19,4 @@ class FirstNameLastName(models.Model):
             ('7', 'Ocacional'),
         ], "Frecuencia de recoleccion",
     )
-    
+    u_reco = fields.Date()
