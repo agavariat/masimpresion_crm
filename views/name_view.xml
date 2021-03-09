@@ -10,7 +10,7 @@
                     <group>
                         <group>
                             <field name="tamemp" />
-                            <field name="u_reco" />
+                            <field name="u_reco" string='Ultima Recoleccion'/>
                         </group>
                     </group>    
                 </xpath>
