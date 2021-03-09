@@ -10,6 +10,7 @@
                     <group>
                         <group>
                             <field name="tamemp" />
+                            <field name="u_reco" />
                         </group>
                     </group>    
                 </xpath>
