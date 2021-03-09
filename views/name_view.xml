@@ -10,12 +10,6 @@
                     <group>
                         <group>
                             <field name="tamemp" />
-                            <field name="linea" widget="many2many_tags"  />
-                            <field name="com"  />
-                        </group>
-                        <group>
-                            <field name="sec"/>
-                            <field name="client"/>
                         </group>
                     </group>    
                 </xpath>
