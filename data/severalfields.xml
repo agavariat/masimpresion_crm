@@ -2,7 +2,7 @@
 
 <odoo>
     <data noupdate="1">
-        <record model="model.manipulate.many2many" id="01">
+        <!--record model="model.manipulate.many2many" id="01">
             <field name="name">Portafolio 1</field>
         </record>
         <record model="model.manipulate.many2many" id="02">
@@ -19,6 +19,6 @@
         </record>
         <record model="model.manipulate.many2many" id="06">
             <field name="name">Portafolio 6</field>
-        </record>
+        </record-->
     </data>
 </odoo>
