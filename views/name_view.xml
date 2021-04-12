@@ -12,6 +12,9 @@
                             <field name="tamemp" />
                             <field name="u_reco" string='Ultima Recoleccion'/>
                         </group>
+                        <group>
+                            <field name="temp" />
+                        </group>
                     </group>    
                 </xpath>
             </field>
