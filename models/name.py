@@ -20,3 +20,11 @@ class FirstNameLastName(models.Model):
         ], "Frecuencia de recoleccion",
     )
     u_reco = fields.Date()
+    temp = fields.selection(
+        [
+            ('grande', 'Grande'),
+            ('mediana', 'Mediana'),
+            ('pequeña', 'Pequeña'),
+            ('micro', 'Micro'),
+        ], "Tamaño de empresa",
+    )
